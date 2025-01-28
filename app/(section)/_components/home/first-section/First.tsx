@@ -26,7 +26,7 @@ const First = () => {
                 With years of industry experience, our team of skilled HVAC
                 technicians is committed to delivering cost-effective and
                 reliable solutions for all types of air conditioning systems.
-                Whether it 's a quick fix or a major installation, we guarantee
+                Whether it&apos;s a quick fix or a major installation, we guarantee
                 the highest standards of service and customer satisfaction.
               </p>
             </div>

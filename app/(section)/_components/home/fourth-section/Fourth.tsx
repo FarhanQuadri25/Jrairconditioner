@@ -1,4 +1,5 @@
 import { WHY_CHOOSE_US } from "./data";
+import Image from "next/image";
 
 const Fourth = () => {
   return (
@@ -12,7 +13,7 @@ const Fourth = () => {
             key={index}
             className="flex flex-col items-center  md:items-start md:text-left"
           >
-            <img
+            <Image
               src={item.image}
               alt={item.title}
               width={50}
