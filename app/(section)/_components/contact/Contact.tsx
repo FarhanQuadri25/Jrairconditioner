@@ -1,8 +1,4 @@
-import { Separator } from "@/components/ui/separator";
-import Link from "next/link";
 import Image from "next/image";
-
-
 
 const Contact = () => {
   return (
@@ -21,7 +17,6 @@ const Contact = () => {
             width="100%"
             height="100%"
             style={{ border: 0 }}
-          
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
           ></iframe>
@@ -52,19 +47,11 @@ const Contact = () => {
           </div>
 
           <div className="flex items-center gap-4">
-            <Image
-              src="/images/gmail.png"
-              width={40}
-              height={40}
-              alt="Email"
-            />
+            <Image src="/images/gmail.png" width={40} height={40} alt="Email" />
             <p className="text-lg font-poppins">razahussain7196@gmail.com</p>
           </div>
         </div>
       </div>
-
-
-     
     </section>
   );
 };
