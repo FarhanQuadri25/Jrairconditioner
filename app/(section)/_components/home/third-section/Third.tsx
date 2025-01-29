@@ -3,7 +3,7 @@ import { AC_SERVICES } from "./data";
 
 const Third = () => {
   return (
-    <section className="bg-newblue py-20 text-white font-inter">
+    <section className="bg-[whitesmoke] py-20 text-zinc-800 font-inter">
       <h1 className="text-center mb-20 font-olive tracking-widest newSeperator">
         Services That We Provide
       </h1>
@@ -17,7 +17,7 @@ const Third = () => {
               className="relative p-6 border rounded-2xl shadow-2xl"
             >
               {/* Icon */}
-              <div className="absolute -top-6 left-1/2 transform -translate-x-1/2 bg-white rounded-full p-3 shadow-lg">
+              <div className="absolute -top-6 left-1/2 transform -translate-x-1/2 bg-[#fff] rounded-full p-3 shadow-lg">
                 <Icon className="text-blue-500 text-textdark text-4xl" />
               </div>
               {/* Content */}

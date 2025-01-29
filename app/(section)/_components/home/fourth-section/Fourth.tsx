@@ -4,7 +4,7 @@ import Image from "next/image";
 const Fourth = () => {
   return (
     <section className="bg-[whitesmoke] py-12">
-      <h1 className="capitalize  text-newblue newSeperator font-olive">
+      <h1 className="capitalize  text-neutral-800 newSeperator font-olive">
         why choose us
       </h1>
       <div className="new-container mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">

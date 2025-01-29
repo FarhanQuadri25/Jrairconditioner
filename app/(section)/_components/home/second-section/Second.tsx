@@ -1,7 +1,7 @@
 "use client";
 import { motion, useScroll, useTransform } from "motion/react";
 import Link from "next/link";
-import ArrowDown from "@/public/svg/ArrowDown"; 
+import ArrowDown from "@/public/svg/ArrowDown";
 
 const Second = () => {
   const { scrollY } = useScroll();
@@ -20,6 +20,7 @@ const Second = () => {
           backgroundSize: "cover",
           backgroundBlendMode: "multiply",
           backgroundColor: "rgba(0,0,0,0.5)",
+          transform: "translateZ(0)",
         }}
         className="absolute top-0 left-0 w-full h-screen bg-cover bg-fixed"
       ></motion.div>

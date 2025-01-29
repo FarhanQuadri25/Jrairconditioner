@@ -27,7 +27,7 @@ const Sidebar = () => {
           onClick={toggleMenu}
           className="font-semibold text-lg focus:outline-none"
         >
-          <Image src={`/images/menu.png`} width={40} height={40} alt="menu" />
+          <Image src={`/images/menu.png`} width={40} height={40} alt="menu" className="text-white" />
         </button>
       </div>
 

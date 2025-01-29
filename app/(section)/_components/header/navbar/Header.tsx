@@ -7,20 +7,20 @@ const Header = () => {
       <div className="new-container text-textlight flex justify-between items-center">
         <div className="flex gap-4 items-center">
           <Image src="/images/people.png" width={44} height={44} alt="people" />
-          <h1 className="text-xl font-olive">Ac Repair Services</h1>
+          <h1 className="text-lg font-olive">Ac Repair Services</h1>
         </div>
         <div className="flex gap-8 items-center">
           <p className="flex gap-3 items-center text-lg">
             <span>
               <Mail />
             </span>
-            <span className="text-xl">razahussain7196@gmail.com</span>
+            <span className="text-lg">razahussain7196@gmail.com</span>
           </p>
           <p className="flex gap-3 items-center">
             <span>
               <Phone />
             </span>
-            <span className="text-xl">+91-7995987254</span>
+            <span className="text-lg">+91-7995987254</span>
           </p>
         </div>
       </div>
