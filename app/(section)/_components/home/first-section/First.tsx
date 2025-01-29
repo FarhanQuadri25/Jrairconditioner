@@ -17,19 +17,10 @@ const First = () => {
           <div>
             <div className="space-y-8">
               <p className="font-bold text-xl font-inter max-w-2xl">
-                At JR Air Conditioner, we specialize in providing top-quality
-                HVAC services to ensure your home or business stays comfortable
-                all year round. Our expertise includes air conditioning
-                installation, maintenance, and repair, tailored to meet your
-                unique needs.
+              At JR AC Services, we specialize in providing high-quality air conditioning solutions that guarantee maximum comfort and efficiency for both homes and businesses. Our comprehensive services include expert installation, reliable repairs, and thorough maintenance to ensure your AC system operates at peak performance. With years of industry experience, our team of skilled HVAC technicians is dedicated to offering cost-effective and dependable solutions for all types of air conditioning systems. Our certified technicians take pride in delivering customized services that meet your specific needs, from improving energy efficiency to extending the lifespan of your unit.
               </p>
               <p className="font-bold text-xl font-inter max-w-2xl">
-                With years of industry experience, our team of skilled HVAC
-                technicians is committed to delivering cost-effective and
-                reliable solutions for all types of air conditioning systems.
-                Whether it&apos;s a quick fix or a major installation, we
-                guarantee the highest standards of service and customer
-                satisfaction.
+              Additionally, we offer Annual Maintenance Contracts (AMC) to help keep your system running smoothly and prevent costly breakdowns. Whether you need urgent repairs or regular maintenance, we provide fast, professional service with a focus on customer satisfaction. Trusted by our clients for our commitment to excellence, JR AC Services ensures that your comfort is our top priority year-round. With us, you can count on timely, efficient, and customer-centric service that always exceeds expectations.
               </p>
             </div>
           </div>
