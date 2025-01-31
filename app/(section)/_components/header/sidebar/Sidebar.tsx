@@ -90,7 +90,7 @@ const Sidebar = () => {
                       >
                         {link.dropdown.map((subLink) => (
                           <li
-                            key={subLink.id}
+                            key={subLink.name}
                             className="hover:underline cursor-pointer"
                           >
                             <Link
