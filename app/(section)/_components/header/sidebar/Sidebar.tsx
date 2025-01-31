@@ -17,7 +17,7 @@ const Sidebar = () => {
   };
 
   return (
-    <div className="flex justify-between items-center p-4 z-50 bg-newblue text-textlight mb-4 shadow-2xl relative">
+    <div className="flex justify-between items-center p-4 z-50 bg-newblue text-textlight  shadow-2xl relative">
       <div>
         {/* Logo */}
         <h1 className="font-olive text-4xl">Logo</h1>
@@ -27,7 +27,13 @@ const Sidebar = () => {
           onClick={toggleMenu}
           className="font-semibold text-lg focus:outline-none"
         >
-          <Image src={`/images/menu.png`} width={40} height={40} alt="menu" className="text-white" />
+          <Image
+            src={`/images/menu.png`}
+            width={40}
+            height={40}
+            alt="menu"
+            className="text-white"
+          />
         </button>
       </div>
 
