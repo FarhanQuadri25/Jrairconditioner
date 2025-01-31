@@ -6,6 +6,7 @@ import { NAVBAR_LINKS } from "../navbar/nav";
 import { ChevronDown, ChevronUp } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
+import { Menu } from "lucide-react";
 
 const Sidebar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState<boolean>(false);
@@ -27,13 +28,14 @@ const Sidebar = () => {
           onClick={toggleMenu}
           className="font-semibold text-lg focus:outline-none"
         >
-          <Image
+          {/* <Image
             src={`/images/menu.png`}
             width={40}
             height={40}
             alt="menu"
             className="text-white"
-          />
+          /> */}
+          <Menu size={40} />
         </button>
       </div>
 
