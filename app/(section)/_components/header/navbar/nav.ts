@@ -20,7 +20,7 @@ export const NAVBAR_LINKS: NavbarLink[] = [
     {
         id: 2,
         label: "About Us",
-        path: "/about-us",
+        path: "/about",
     },
     {
         id: 3,

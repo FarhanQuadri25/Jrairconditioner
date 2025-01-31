@@ -32,7 +32,8 @@ const Contact = () => {
               alt="Home address"
             />
             <p className="text-lg font-poppins capitalize leading-relaxed">
-            Meerpet Rd, near meerpet masjid, Sarvodaya Colony, Meerpet, Hyderabad, Telangana 500058
+              Meerpet Rd, near meerpet masjid, Sarvodaya Colony, Meerpet,
+              Hyderabad, Telangana 500058
             </p>
           </div>
 
