@@ -1,5 +1,5 @@
 interface DropdownItem {
-    id: number;
+    name: string;
     label: string;
     path: string;
 }
@@ -27,15 +27,15 @@ export const NAVBAR_LINKS: NavbarLink[] = [
         label: "Product",
 
         dropdown: [
-            { id: 31, label: "Daikin", path: "/product/daikin" },
-            { id: 32, label: "Lloyd", path: "/product/lloyd" },
-            { id: 33, label: "Mitsubishi", path: "/product/mitsubishi" },
-            { id: 34, label: 'Blue star', path: '/product/blue-star' },
-            { id: 35, label: 'Hitachi', path: '/product/hitachi' },
-            { id: 36, label: 'lg', path: '/product/lg' },
-            { id: 37, label: 'Panasonic', path: '/product/panasonic' },
-            { id: 38, label: 'Samsung', path: '/product/samsung' },
-            { id: 39, label: 'Carrier', path: '/product/carrier' }
+            { name: "daikin", label: "Daikin", path: "/product/daikin" },
+            { name: "lloyd", label: "Lloyd", path: "/product/lloyd" },
+            { name: "mitsubishi", label: "Mitsubishi", path: "/product/mitsubishi" },
+            { name: "blue-star", label: 'Blue star', path: '/product/blue-star' },
+            { name: "hitachi", label: 'Hitachi', path: '/product/hitachi' },
+            { name: "lg", label: 'lg', path: '/product/lg' },
+            { name: "panasonic", label: 'Panasonic', path: '/product/panasonic' },
+            { name: "samsung", label: 'Samsung', path: '/product/samsung' },
+            { name: "carrier", label: 'Carrier', path: '/product/carrier' }
         ],
     },
     {
@@ -43,8 +43,8 @@ export const NAVBAR_LINKS: NavbarLink[] = [
         label: "Gallery",
 
         dropdown: [
-            { id: 41, label: "Photos", path: "/gallery/photos" },
-            { id: 42, label: "Videos", path: "/gallery/vidoes" },
+            { name: "photos", label: "Photos", path: "/gallery/photos" },
+            { name: "videos", label: "Videos", path: "/gallery/vidoes" },
         ],
     },
     {
