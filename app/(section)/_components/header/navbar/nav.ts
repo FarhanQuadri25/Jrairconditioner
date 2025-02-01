@@ -44,7 +44,7 @@ export const NAVBAR_LINKS: NavbarLink[] = [
 
         dropdown: [
             { name: "photos", label: "Photos", path: "/gallery/photos" },
-            { name: "videos", label: "Videos", path: "/gallery/vidoes" },
+            { name: "videos", label: "Videos", path: "/gallery/videos" },
         ],
     },
     {
