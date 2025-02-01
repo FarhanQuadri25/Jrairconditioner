@@ -3,6 +3,7 @@ import React, { useState, useEffect } from "react";
 import { ChevronUp, ChevronDown } from "lucide-react";
 import { NAVBAR_LINKS } from "./nav";
 import Link from "next/link";
+import Image from "next/image";
 
 const Navbar = () => {
   const [activeDropDown, setActiveDropDown] = useState<number | null>(null);
@@ -26,12 +27,40 @@ const Navbar = () => {
     };
   }, []);
 
+  useEffect(() => {
+    const handleScroll = () => {
+      const navbar2 = document.getElementById("navbar");
+      if (window.scrollY > 50) {
+        navbar2?.classList.remove("translate-y-[76px]");
+      } else {
+        navbar2?.classList.add("translate-y-[76px]");
+      }
+    };
+  
+    const navbar2 = document.getElementById("navbar");
+    if (window.scrollY > 50) {
+      navbar2?.classList.remove("translate-y-[76px]");
+    } else {
+      navbar2?.classList.add("translate-y-[76px]");
+    }
+  
+    window.addEventListener("scroll", handleScroll);
+  
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+  
+
   return (
-    <nav id="navbar" className="bg-newblue sticky top-0 z-20 w-full p-6">
-      <div className="new-container-2 flex justify-between items-center">
+    <nav
+      id="navbar"
+      className="bg-newblue fixed top-0 left-0 transition-all duration-300 ease-in-out z-20 w-full p-2"
+    >
+      <div className="new-container-2  flex justify-between items-center">
         {/* Logo */}
         <div>
-          <h1 className="text-white text-xl font-bold">Logo</h1>
+          <Image src={`/images/logo.jpeg`} alt='logo' width={80} height={56}/>
         </div>
 
         {/* Navigation Links */}

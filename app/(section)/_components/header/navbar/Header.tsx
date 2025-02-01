@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Header = () => {
   return (
-    <header className="bg-seconddark p-4 w-full">
+    <header className="bg-seconddark  p-4 w-full">
       <div className="new-container text-textlight flex justify-between items-center">
         <div className="flex gap-4 items-center">
           <Image src="/images/people.png" width={44} height={44} alt="people" />

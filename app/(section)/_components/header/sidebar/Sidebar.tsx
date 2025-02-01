@@ -21,20 +21,13 @@ const Sidebar = () => {
     <div className="flex justify-between items-center p-4 z-50 bg-newblue text-textlight  shadow-2xl relative">
       <div>
         {/* Logo */}
-        <h1 className="font-olive text-4xl">Logo</h1>
+        <Image src={`/images/logo.jpeg`} alt="logo" width={80} height={56} />
       </div>
       <div>
         <button
           onClick={toggleMenu}
           className="font-semibold text-lg focus:outline-none"
         >
-          {/* <Image
-            src={`/images/menu.png`}
-            width={40}
-            height={40}
-            alt="menu"
-            className="text-white"
-          /> */}
           <Menu size={40} />
         </button>
       </div>

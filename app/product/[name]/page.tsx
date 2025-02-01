@@ -173,7 +173,7 @@ export default async function Products({
   };
   return (
     <>
-      <div className="h-[30vh] bg-azureblue relative mb-4">
+      <div className="h-[30vh] bg-azureblue relative mt-[4.7rem] mb-4">
         <div className="absolute top-0 left-0 right-0 bottom-0 flex justify-center items-center">
           <h1 className="font-olive text-5xl">{product.label}</h1>
         </div>

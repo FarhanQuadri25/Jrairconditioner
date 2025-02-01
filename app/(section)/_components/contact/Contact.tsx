@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 const Contact = () => {
   return (
@@ -49,7 +50,28 @@ const Contact = () => {
 
           <div className="flex items-center gap-4">
             <Image src="/images/gmail.png" width={40} height={40} alt="Email" />
-            <p className="text-lg font-poppins">razahussain7196@gmail.com</p>
+
+            <Link
+              href="mailto:razahussain7196@gmail.com?subject=Your%20Subject&body=Hello%2C%20I%20wanted%20to%20reach%20out%20about%20..."
+              className="text-lg font-poppins"
+            >
+              razahussain7196@gmail.com
+            </Link>
+          </div>
+          <div className="flex items-center gap-4">
+            <Image
+              src="/images/instagram.png"
+              width={40}
+              height={40}
+              alt="Instagram"
+            />
+            <Link
+              href="https://www.instagram.com/jr_ac_services/"
+              target="_blank"
+              className="text-lg font-poppins"
+            >
+              jr_ac_services
+            </Link>
           </div>
         </div>
       </div>

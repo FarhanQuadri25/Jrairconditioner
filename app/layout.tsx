@@ -47,7 +47,7 @@ export default function RootLayout({
         <div className="hidden md:block">
           <Navbar />
         </div>
-        <div className="block md:hidden">
+        <div className="block md:hidden fixed top-0 left-0 z-50 w-full">
           <Sidebar />
         </div>
         {children}

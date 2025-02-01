@@ -75,7 +75,7 @@ export default async function Products({
   const gallery = galleryContent[name as keyof typeof galleryContent];
 
   return (
-    <div className="new-container min-h-screen mt-8 mb-14">
+    <div className="new-container min-h-screen mt-28 mb-14 ">
       <h1 className="text-center font-olive text-3xl font-bold mb-4">
         {gallery.label}
       </h1>
@@ -88,7 +88,7 @@ export default async function Products({
             <div key={index} className="relative">
               <Image
                 src={item.src}
-                alt={item.src}
+                alt={item.src || 'Image'}
                 width={500}
                 height={500}
                 className="w-full rounded-2xl shadow-lg"

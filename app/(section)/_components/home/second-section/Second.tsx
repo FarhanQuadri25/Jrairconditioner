@@ -10,7 +10,7 @@ const Second = () => {
   const bgY = useTransform(scrollY, [0, 500], ["0%", "30%"]);
 
   return (
-    <div className="relative h-[80vh]">
+    <div className="relative  h-[80vh]">
       {/* Background Image */}
       <motion.div
         style={{

@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function AboutPage() {
   return (
-    <div className="new-container min-h-screen flex items-center justify-center">
+    <div className="new-container min-h-screen mt-[5.8rem] flex items-center justify-center">
       <div className="flex justify-center items-center flex-col md:flex-row md:space-x-8">
         <div>
           <h1 className="text-transparent newSeperator-2 mx-auto md:mx-0 text-center md:text-left mt-8 font-olive bg-gradient-to-tr from-azureblue to-newblue bg-clip-text mb-8 md:mb-2">
