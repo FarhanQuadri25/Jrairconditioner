@@ -19,10 +19,10 @@ const Sidebar = () => {
 
   return (
     <div className="flex justify-between items-center p-4 z-50 bg-newblue text-textlight  shadow-2xl relative">
-      <div>
+      <Link href={`/`}>
         {/* Logo */}
         <Image src={`/images/logo.jpeg`} alt="logo" width={80} height={56} />
-      </div>
+      </Link>
       <div>
         <button
           onClick={toggleMenu}

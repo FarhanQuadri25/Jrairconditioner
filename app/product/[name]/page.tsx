@@ -1,3 +1,5 @@
+import { MotionDiv } from "@/components/MotionDiv";
+
 export default async function Products({
   params,
 }: {
@@ -173,20 +175,47 @@ export default async function Products({
   };
   return (
     <>
-      <div className="h-[30vh] bg-azureblue relative mt-[4.7rem] mb-4">
+      <MotionDiv
+        initial={{
+          opacity: 0,
+          y: 100,
+        }}
+        animate={{
+          opacity: 1,
+          y: 0,
+        }}
+        transition={{
+          type: "spring",
+          duration: 1,
+          delay: 0.8,
+        }}
+        className="h-[30vh] bg-azureblue relative mt-[4.7rem] mb-4"
+      >
         <div className="absolute top-0 left-0 right-0 bottom-0 flex justify-center items-center">
           <h1 className="font-olive text-5xl">{product.label}</h1>
         </div>
-      </div>
+      </MotionDiv>
 
-      <div className="max-w-5xl mx-4 mb-4 sm:mx-auto flex flex-col font-inter text-justify text-pretty font-normal space-y-5">
+      <MotionDiv
+        initial={{ opacity: 0, y: 100 }}
+        animate={{
+          opacity: 1,
+          y: 0,
+        }}
+        transition={{
+          type: "spring",
+          duration: 1,
+          delay: 0.8,
+        }}
+        className="max-w-5xl mx-4 mb-4 sm:mx-auto flex flex-col font-inter text-justify text-pretty font-normal space-y-5"
+      >
         <p>{product.description}</p>
         {product.description1 && <p>{product.description1}</p>}
         {product.description2 && <p>{product.description2}</p>}
         {product.description3 && <p>{product.description3}</p>}
         {product.description4 && <p>{product.description4}</p>}
         {product.description5 && <p>{product.description5}</p>}
-      </div>
+      </MotionDiv>
     </>
   );
 }

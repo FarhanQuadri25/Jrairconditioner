@@ -1,3 +1,4 @@
+import { MotionDiv } from "@/components/MotionDiv";
 import Image from "next/image";
 
 interface MediaItem {
@@ -75,7 +76,19 @@ export default async function Products({
   const gallery = galleryContent[name as keyof typeof galleryContent];
 
   return (
-    <div className="new-container min-h-screen mt-28 mb-14 ">
+    <MotionDiv
+      className="new-container min-h-screen mt-28 mb-14"
+      initial={{ opacity: 0, y: 100 }}
+      animate={{
+        opacity: 1,
+        y: 0,
+      }}
+      transition={{
+        type: "spring",
+        duration: 0.5,
+        delay: 0.2,
+      }}
+    >
       <h1 className="text-center font-olive text-3xl font-bold mb-4">
         {gallery.label}
       </h1>
@@ -88,7 +101,7 @@ export default async function Products({
             <div key={index} className="relative">
               <Image
                 src={item.src}
-                alt={item.src || 'Image'}
+                alt={item.src || "Image"}
                 width={500}
                 height={500}
                 className="w-full rounded-2xl shadow-lg"
@@ -114,6 +127,6 @@ export default async function Products({
           ))}
         </div>
       )}
-    </div>
+    </MotionDiv>
   );
 }

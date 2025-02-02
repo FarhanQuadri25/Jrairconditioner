@@ -23,10 +23,14 @@ const Fifth = () => {
               className="mb-4 shadow-2xl"
             >
               <AccordionTrigger className="accordion-header flex items-center justify-between cursor-pointer py-4 px-6 bg-[#fff] text-neutral-800 rounded-t-lg hover:bg-blue-700 transition-colors">
-                <h3 className="text-xl font-bold font-poppins">{service.title}</h3>
+                <h3 className="text-xl font-bold font-poppins">
+                  {service.title}
+                </h3>
               </AccordionTrigger>
               <AccordionContent className="accordion-content px-6 py-4 bg-gray-100 rounded-b-lg">
-                <p className="text-gray-700 font-inter">{service.description}</p>
+                <p className="text-gray-700 font-inter">
+                  {service.description}
+                </p>
               </AccordionContent>
             </AccordionItem>
           ))}

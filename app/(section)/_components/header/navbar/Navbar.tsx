@@ -36,21 +36,20 @@ const Navbar = () => {
         navbar2?.classList.add("translate-y-[76px]");
       }
     };
-  
+
     const navbar2 = document.getElementById("navbar");
     if (window.scrollY > 50) {
       navbar2?.classList.remove("translate-y-[76px]");
     } else {
       navbar2?.classList.add("translate-y-[76px]");
     }
-  
+
     window.addEventListener("scroll", handleScroll);
-  
+
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
   }, []);
-  
 
   return (
     <nav
@@ -59,9 +58,9 @@ const Navbar = () => {
     >
       <div className="new-container-2  flex justify-between items-center">
         {/* Logo */}
-        <div>
-          <Image src={`/images/logo.jpeg`} alt='logo' width={80} height={56}/>
-        </div>
+        <Link href={`/`}>
+          <Image src={`/images/logo.jpeg`} alt="logo" width={80} height={56} />
+        </Link>
 
         {/* Navigation Links */}
         <div>
