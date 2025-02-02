@@ -176,18 +176,15 @@ export default async function Products({
   return (
     <>
       <MotionDiv
-        initial={{
-          opacity: 0,
-          y: 100,
-        }}
+        initial={{ opacity: 0, y: 100 }}
         animate={{
           opacity: 1,
           y: 0,
         }}
         transition={{
           type: "spring",
-          duration: 1,
-          delay: 0.8,
+          duration: 0.5,
+          delay: 0.2,
         }}
         className="h-[30vh] bg-azureblue relative mt-[4.7rem] mb-4"
       >
@@ -204,8 +201,8 @@ export default async function Products({
         }}
         transition={{
           type: "spring",
-          duration: 1,
-          delay: 0.8,
+          duration: 0.5,
+          delay: 0.2,
         }}
         className="max-w-5xl mx-4 mb-4 sm:mx-auto flex flex-col font-inter text-justify text-pretty font-normal space-y-5"
       >

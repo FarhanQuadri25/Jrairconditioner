@@ -5,15 +5,29 @@ export default function AboutPage() {
   return (
     <MotionDiv
       initial={{ opacity: 0, y: 100 }}
-      animate={{ opacity: 1, y: 1 }}
-      transition={{ type: "spring", duration: 1, delay: 0.5 }}
+      animate={{
+        opacity: 1,
+        y: 0,
+      }}
+      transition={{
+        type: "spring",
+        duration: 0.5,
+        delay: 0.2,
+      }}
       className="new-container  min-h-[80vh] mt-[5.8rem] flex items-center justify-center"
     >
       <div className="flex justify-center items-center flex-col md:flex-row md:space-x-8">
         <MotionDiv
-          initial={{ opacity: 0, x: -50 }}
-          animate={{ opacity: 1, x: 0 }}
-          transition={{ type: "spring", duration: 0.4, delay: 0.2 }}
+          initial={{ opacity: 0, y: 100 }}
+          animate={{
+            opacity: 1,
+            y: 0,
+          }}
+          transition={{
+            type: "spring",
+            duration: 0.5,
+            delay: 0.2,
+          }}
         >
           <h1 className="text-transparent newSeperator-2 mx-auto md:mx-0 text-center md:text-left mt-8 font-olive bg-gradient-to-tr from-azureblue to-newblue bg-clip-text mb-8 md:mb-2">
             About Us
