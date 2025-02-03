@@ -106,7 +106,10 @@ const Navbar = () => {
                 )}
                 {/* Dropdown */}
                 {link.dropdown && activeDropDown === link.id && (
-                  <ul className="absolute left-0 mt-2 bg-white shadow-lg rounded-md py-2 w-48 z-10">
+                  <ul
+                    className="absolute left-0 mt-2 bg-white shadow-lg rounded-md py-2 w-48 z-10"
+                    onMouseLeave={() => setActiveDropDown(null)}
+                  >
                     {link.dropdown.map((dropdownItem) => (
                       <li key={dropdownItem.name} className="cursor-pointer">
                         <Link
