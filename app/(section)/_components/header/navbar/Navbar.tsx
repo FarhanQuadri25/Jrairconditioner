@@ -55,7 +55,13 @@ const Navbar = () => {
       <div className="new-container-2 flex justify-between items-center">
         {/* Logo */}
         <Link href={`/`}>
-          <Image src={`/images/logo.jpeg`} alt="logo" width={80} height={56} />
+          <Image
+            src={`/images/logo.jpeg`}
+            alt="logo"
+            width={80}
+            height={56}
+            onClick={() => setActiveDropDown(null)}
+          />
         </Link>
 
         {/* Navigation Links */}
