@@ -21,10 +21,10 @@ const Fourth = () => {
               className="mx-auto"
             />
             <div className="mt-4">
-              <h3 className="text-2xl font-bold font-poppins text-center">
+              <h3 className="text-2xl font-extrabold font-poppins text-center">
                 {item.title}
               </h3>
-              <p className="text-lg font-inter font-normal text-center">{item.description}</p>
+              <p className="text-lg font-inter font-[500] text-center">{item.description}</p>
             </div>
           </div>
         ))}

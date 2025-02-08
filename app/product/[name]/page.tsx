@@ -204,7 +204,7 @@ export default async function Products({
           duration: 0.5,
           delay: 0.2,
         }}
-        className="max-w-5xl mx-4 mb-4 sm:mx-auto flex flex-col font-inter text-justify text-pretty font-normal space-y-5"
+        className="max-w-5xl mx-4 mb-4 sm:mx-auto flex flex-col font-inter text-justify text-pretty font-[500] space-y-5"
       >
         <p>{product.description}</p>
         {product.description1 && <p>{product.description1}</p>}

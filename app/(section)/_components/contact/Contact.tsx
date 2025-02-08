@@ -73,6 +73,21 @@ const Contact = () => {
               jr_ac_services
             </Link>
           </div>
+          <div className="flex items-center gap-4">
+            <Image
+              src="/images/just-dial.png"
+              width={40}
+              height={40}
+              alt="just-dial"
+            />
+            <Link
+              href="https://jsdl.in/DT-28M2FZPCM8N"
+              target="_blank"
+              className="text-lg font-poppins"
+            >
+              Jr Airconditioner A Complete AIR Condition Solutions
+            </Link>
+          </div>
         </div>
       </div>
     </section>

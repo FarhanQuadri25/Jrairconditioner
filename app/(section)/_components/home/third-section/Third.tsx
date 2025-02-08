@@ -21,11 +21,13 @@ const Third = () => {
                 <Icon className="text-blue-500 text-textdark text-4xl" />
               </div>
               {/* Content */}
-              <h3 className="mt-10 text-2xl font-bold font-poppins">
+              <h3 className="mt-10 text-2xl font-extrabold font-poppins">
                 {service.title}
               </h3>
               <Separator className="h-1" />
-              <p className="mt-2 font-inter">{service.description}</p>
+              <p className="mt-2 font-inter font-[500]">
+                {service.description}
+              </p>
             </div>
           );
         })}
