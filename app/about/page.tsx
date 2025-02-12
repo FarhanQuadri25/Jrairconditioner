@@ -14,7 +14,7 @@ export default function AboutPage() {
         duration: 0.5,
         delay: 0.2,
       }}
-      className="new-container  min-h-[80vh] mt-[5.8rem] flex items-center justify-center"
+      className="new-container min-h-[80vh] mt-[5.8rem] flex items-center justify-center"
     >
       <div className="flex justify-center items-center flex-col md:flex-row md:space-x-8">
         <MotionDiv
@@ -29,25 +29,26 @@ export default function AboutPage() {
             delay: 0.2,
           }}
         >
-          <h1 className="text-transparent newSeperator-2 mx-auto md:mx-0 text-center md:text-left mt-8 font-olive bg-gradient-to-tr from-azureblue to-newblue bg-clip-text mb-8 md:mb-2">
+          <h1 className="text-transparent newSeperator-2  mx-auto md:mx-0 text-center md:text-left mt-8 font-olive bg-gradient-to-tr from-azureblue to-newblue bg-clip-text mb-8 md:mb-2">
             About Us
           </h1>
-
-          <p className="max-w-5xl mx-4 mb-4 sm:mx-auto flex flex-col font-inter text-justify text-pretty font-normal space-y-5 leading-relaxed">
-            I started providing air conditioning services in 2018 with the goal
-            of offering reliable and efficient solutions for homes and
-            businesses, ensuring maximum comfort for all.
-          </p>
-          <p className="max-w-5xl mx-4 mb-4 sm:mx-auto flex flex-col font-inter text-justify text-pretty font-normal space-y-5 leading-relaxed">
-            Over the years, I have built a reputation for providing expert AC
-            installation, dependable repairs, and thorough maintenance to ensure
-            your system always performs at its best.
-          </p>
-          <p className="max-w-5xl mx-4 mb-4 sm:mx-auto flex flex-col font-inter text-justify text-pretty font-normal space-y-5 leading-relaxed">
-            My focus is on customer satisfaction, providing personalized,
-            cost-effective solutions that keep systems running efficiently and
-            ensure comfort in both home and business environments.
-          </p>
+          <div>
+            <p className="mx-4 mb-4 new-container-2 text-justify sm:mx-auto flex flex-col font-inter font-normal space-y-5">
+              I started providing air conditioning services in 2018 with the
+              goal of offering reliable and efficient solutions for homes and
+              businesses, ensuring maximum comfort for all.
+            </p>
+            <p className="mx-4 mb-4 sm:mx-auto new-container-2 text-justify text-pretty flex flex-col font-inter font-normal space-y-5">
+              Over the years, I have built a reputation for providing expert AC
+              installation, dependable repairs, and thorough maintenance to
+              ensure your system always performs at its best.
+            </p>
+            <p className="mx-4 mb-4 sm:mx-auto flex new-container-2 text-justify flex-col font-inter font-normal space-y-5">
+              My focus is on customer satisfaction, providing personalized,
+              cost-effective solutions that keep systems running efficiently and
+              ensure comfort in both home and business environments.
+            </p>
+          </div>
         </MotionDiv>
 
         <Image
