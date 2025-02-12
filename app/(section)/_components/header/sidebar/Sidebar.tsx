@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { NAVBAR_LINKS } from "../navbar/nav";
+import { SIDEBAR_LINKS } from "../navbar/nav";
 import { ChevronDown, ChevronUp } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
@@ -56,7 +56,7 @@ const Sidebar = () => {
               </button>
             </div>
             <ul className="space-y-4 text-xl h-full flex flex-col font-semibold">
-              {NAVBAR_LINKS.map((link) => (
+              {SIDEBAR_LINKS.map((link) => (
                 <li key={link.id}>
                   <div
                     className={`cursor-pointer text-3xl flex justify-between items-center ${
@@ -108,6 +108,7 @@ const Sidebar = () => {
                 </li>
               ))}
             </ul>
+            
           </motion.div>
         )}
       </AnimatePresence>
