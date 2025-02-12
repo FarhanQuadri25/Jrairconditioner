@@ -28,7 +28,7 @@ export default async function Products({
   const galleryContent: GalleryContent = {
     photos: {
       label: "Photo Gallery",
-      description: "Explore our collection of our Work",
+      description: "Explore our collection of Work",
       media: [
         { src: "/images/air-conditioner (9).jpg", alt: "Photo 34" },
         { src: "/images/air-conditioner (8).jpg", alt: "Photo 33" },
@@ -74,7 +74,7 @@ export default async function Products({
     },
     videos: {
       label: "Video Gallery",
-      description: "Watch our exclusive video content.",
+      description: "Watch the video content of our work.",
       media: [
         { src: "/videos/jr-airconditioner (1).mp4", title: "video 1" },
         { src: "/videos/jr-airconditioner (3).mp4", title: "video 3" },
