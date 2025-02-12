@@ -65,7 +65,7 @@ const Navbar = () => {
         </Link>
 
         {/* Navigation Links */}
-        <div>
+        <div className="flex  items-center gap-14">
           <ul className="flex cursor-pointer space-x-6">
             {NAVBAR_LINKS.map((link) => (
               <li key={link.id} className="relative group">
@@ -131,10 +131,7 @@ const Navbar = () => {
               </li>
             ))}
           </ul>
-        </div>
-
-        {/* Contact Us Button */}
-        <div>
+          <div>
           <Link
             href={`#contact`}
             className="bg-white text-lg text-azureblue font-olive px-4 py-2 rounded-full shadow-2xl hover:bg-gray-200"
@@ -143,6 +140,10 @@ const Navbar = () => {
             Contact Us
           </Link>
         </div>
+        </div>
+
+        {/* Contact Us Button */}
+       
       </div>
     </nav>
   );

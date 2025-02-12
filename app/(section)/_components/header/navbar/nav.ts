@@ -47,9 +47,12 @@ export const NAVBAR_LINKS: NavbarLink[] = [
             { name: "videos", label: "Videos", path: "/gallery/videos" },
         ],
     },
-    {
-        id: 5,
-        label: "Contact",
-        path: "#contact",
-    },
+    
 ];
+
+
+// {
+//     id: 5,
+//     label: "Contact",
+//     path: "#contact",
+// },
