@@ -26,13 +26,25 @@ const fraunces = Fraunces({
   variable: "--font-fraunces",
 });
 
-// const BASE_URL = "http://localhost:3000";
+const BASE_URL = "https://www.jrairconditioner.com/";
 
 export const metadata: Metadata = {
-  title: "Jr Air Conditioner",
+  title: "jrairconditioner",
   description: "jr air conditioner repair services",
   icons: "/images/logo.jpeg",
-  // metadataBase: new URL(BASE_URL),
+  metadataBase: new URL(BASE_URL),
+  openGraph: {
+    title: "jrairconditioner",
+    description: "jr air conditioner repair services",
+    url: BASE_URL,
+    siteName: "jrairconditioner",
+    images: `${BASE_URL}/images/logo.jpeg`,
+  },
+  twitter: {
+    title: "jrairconditioner",
+    description: "jr air conditioner repair services",
+    images: `${BASE_URL}/images/logo.jpeg`,
+  },
 };
 
 export default function RootLayout({
