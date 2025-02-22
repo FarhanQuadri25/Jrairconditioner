@@ -26,10 +26,13 @@ const fraunces = Fraunces({
   variable: "--font-fraunces",
 });
 
+// const BASE_URL = "http://localhost:3000";
+
 export const metadata: Metadata = {
   title: "Jr Air Conditioner",
   description: "jr air conditioner repair services",
   icons: "/images/logo.jpeg",
+  // metadataBase: new URL(BASE_URL),
 };
 
 export default function RootLayout({
