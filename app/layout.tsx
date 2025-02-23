@@ -26,7 +26,7 @@ const fraunces = Fraunces({
   variable: "--font-fraunces",
 });
 
-const BASE_URL = "https://www.jrairconditioner.com/";
+const BASE_URL = "https://www.jrairconditioner.com";
 
 export const metadata: Metadata = {
   title: "jrairconditioner",
